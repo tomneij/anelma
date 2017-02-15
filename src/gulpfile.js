@@ -8,29 +8,17 @@ var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
-var build_location = './build';
-var sandbox_location = './sandbox';
-
-
-
-/*gulp.task('images', function () {
-    gulp.src('/images/*')
-        .pipe(imagemin({
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngquant()]
-        }))
-        .pipe(gulp.dest(build_location + '/themes/custom/anelma/images'));
-});*/
+var build_location = '../build';
+var sandbox_location = '../sandbox';
 
 
 gulp.task('clean_build_location', function(){
-  return gulp.src(sandbox_location, {read: false})
-        .pipe(clean());
+  return gulp.src(build_location+'/*', {read: false})
+        .pipe(clean({force: true}));
 });
 
 gulp.task('sass', function () {
-    gulp.src('/sass/**/*.scss')
+    gulp.src('./sass/**/*.scss')
         .pipe(sourcemaps.init())
             .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
             .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
@@ -44,15 +32,12 @@ gulp.task('js', function() {
     .pipe(gulp.dest(build_location + '/themes/custom/anelma/js'))
 });
 
-
 gulp.task('build', ['clean_build_location'], function(){
-      gulp.src('/Theme/*')    
-        .pipe(gulp.dest(build_location + '/themes/custom/anelma'));
-
+      gulp.src('./Theme/*')
+        .pipe(gulp.dest(build_location + '/themes/custom/anelma/'));
       gulp.start('sass');
       gulp.start('js');    
 });
-
 
 gulp.task('deploy', ['build'], function(){
     gulp.src(build_location + '/**/*.*')
@@ -62,7 +47,7 @@ gulp.task('deploy', ['build'], function(){
 
 
 
-gulp.task('auto-deploy', , function(){
+gulp.task('auto-deploy', function(){
  //auto build and copy to sandbox
 });
 

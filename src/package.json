@@ -1,19 +1,16 @@
 {
-  "name": "olympos-gulp",
+  "name": "anelma-gulp",
   "version": "1.0.0",
-  "description": "Gulp dependencies for Olympos WordPress theme",
+  "description": "Gulp dependencies for Anelma application",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ivandoric/olympos.git"
-  },
-  "author": "Ivan Dorić",
+  "author": "Tom Neij",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.2",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-imagemin": "^2.3.0",
     "gulp-livereload": "^3.8.0",
