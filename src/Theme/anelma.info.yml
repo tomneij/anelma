@@ -1,0 +1,17 @@
+name: Anelma
+description: Anelma Theme
+type: theme
+core: 8.x
+libraries:
+  - anelma/global-css
+  - anelma/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
