@@ -8,18 +8,7 @@
       {{ page.content }}
     </div>{# /.layout-content #}
 
-    {% if page.sidebar %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar }}
-      </aside>
-    {% endif %}
-
   </main>
-
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-
 </div>{# /.layout-container #}
+
+{% include directory ~ '/partials/footer.html.twig' %}

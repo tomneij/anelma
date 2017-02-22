@@ -39,10 +39,10 @@ gulp.task('build_js', function() {
 });
 
 gulp.task('build', ['clean_build_location'], function(){
-    gulp.start('build_sass');
-    gulp.start('build_js');
+    //gulp.start('build_sass');
+    //gulp.start('build_js');
 
-      return gulp.src('./Theme/*')
+      return gulp.src('./Theme/**')
         .pipe(gulp.dest(build_location + '/themes/custom/anelma')); 
 });
 

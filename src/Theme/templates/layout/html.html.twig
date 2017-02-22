@@ -26,18 +26,22 @@
 <!DOCTYPE html>
 <html{{ html_attributes }}>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <head-placeholder token="{{ placeholder_token|raw }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
     <js-placeholder token="{{ placeholder_token|raw }}">
   </head>
-  <body{{ attributes }}>
-    <a href="#main-content" class="visually-hidden focusable">
-      {{ 'Skip to main content'|t }}
-    </a>
-    {{ page_top }}
-    {{ page }}
-    {{ page_bottom }}
+  <body{{ attributes }}  class="activateAppearAnimation">
+    <!-- globalWrapper -->
+	  <div id="globalWrapper" >
+      {{ page_top }}
+      {{ page }}
+      {{ page_bottom }}
+     </div>
+      <!-- end globalWrapper -->
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">
   </body>
 </html>

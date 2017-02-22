@@ -1,0 +1,17 @@
+update v1.4 2016/09/06
+- updated boostrap to v3.3.7
+- updated social share system
+
+update v1.3
+- updated bootstrap
+- changed toggle menu breakpoint
+- optimized mobile menu display
+- fixed missing logo in some pages
+
+update v1.2
+- removed color switcher from the package
+
+update v1.1
+- added 7 home page layouts
+- added 2 blog layouts
+- change hover picture mask color to black
