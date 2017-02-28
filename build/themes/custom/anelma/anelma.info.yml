@@ -8,10 +8,28 @@ libraries:
 stylesheets-remove:
   - core/themes/stable/css/views/views.module.css
   - core/themes/stable/css/system/components/align.module.css
-
-regions:
-  content: 'Main Content'
+  - core/themes/stable/css/system/components/ajax-progress.module.css
+  - core/themes/stable/css/system/components/autocomplete-loading.module.css
+  - core/themes/stable/css/system/components/fieldgroup.module.css
+  - core/themes/stable/css/system/components/container-inline.module.css
+  - core/themes/stable/css/system/components/clearfix.module.css
+  - core/themes/stable/css/system/components/details.module.css
+  - core/themes/stable/css/system/components/hidden.module.css
+  - core/themes/stable/css/system/components/item-list.module.css
+  - core/themes/stable/css/system/components/js.module.css
+  - core/themes/stable/css/system/components/nowrap.module.css
+  - core/themes/stable/css/system/components/position-container.module.css
+  - core/themes/stable/css/system/components/progress.module.css
+  - core/themes/stable/css/system/components/reset-appearance.module.css
+  - core/themes/stable/css/system/components/resize.module.css
+  - core/themes/stable/css/system/components/sticky-header.module.css
+  - core/themes/stable/css/system/components/tabledrag.module.css
+  - core/themes/stable/css/system/components/tablesort.module.css
+  - core/themes/stable/css/system/components/tree-child.module.css
+  - core/assets/vendor/jquery.ui/themes/base/core.css
+  - core/assets/vendor/jquery.ui/themes/base/theme.css
+regions:  
   header: 'Header'
-  footer: 'Footer'
-  sidebar: 'Sidebar'
   main_navigation: 'Main Navigation'
+  content: 'Main Content'
+  footer: 'Footer' 
