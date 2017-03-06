@@ -31,5 +31,6 @@ stylesheets-remove:
 regions:  
   header: 'Header'
   main_navigation: 'Main Navigation'
+  content_header: 'Content Header'
   content: 'Main Content'
   footer: 'Footer' 

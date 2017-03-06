@@ -557,7 +557,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
 	padding: 0;
-	padding-top: 60px;
+	padding-top: 0px;
 
 }
 
@@ -714,7 +714,7 @@ blockquote.pull-right {border:none;}
 
 @media(min-width:1025px){
 	
-	body{padding-top: 153px;}
+	body{padding-top: 0px;}
 	h1 {
 		font-size: 28px;
 	}
@@ -725,7 +725,7 @@ blockquote.pull-right {border:none;}
 }
 @media(min-width:1025px){
 	body {
-		padding-top: 92px;
+		padding-top: 0px;
 	}
 	.paralaxText blockquote {
 		font-size: 33px;
@@ -961,9 +961,13 @@ blockquote.pull-right {border:none;}
 .navbar-nav > li#lastMenu > a {}
 
 .navbar-brand {
-	padding: 20px 0;
+	/*padding: 20px 0;*/
 	height: auto;
 }
+
+.navbar-brand > img {
+		height: 60px;
+	}
 
 /*** sub menus ***/
 
@@ -1042,10 +1046,6 @@ li.Nactive .nekoMegaMenu,  li.Nactive .nekoMegaMenu ul  {
 }
 
 @media(min-width:1025px){
-
-	.navbar-brand {
-		padding-top: 38px;
-	}
 
 	.navbar-nav > li > a{
 		font-size: 13px;

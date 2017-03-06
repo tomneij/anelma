@@ -1,18 +1,17 @@
 {% include directory ~ '/partials/header.html.twig' %}
 <section id="page">
 
-    <header class="page-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            {{ page.title }}            
-
-            {{ page.breadcrumb }}
-
+    {% if  page.content_header %}
+      <header class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">               
+              {{ page.content_header }} 
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+     {% endif %}
 
     <section id="content">
       <section class="pt30 pb30"> 
