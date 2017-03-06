@@ -51,7 +51,9 @@ gulp.task('deploy_to_sandbox', ['build'], function(){
         .pipe(gulp.dest(sandbox_location + '/'));
 });
 
-gulp.task('default', ['deploy_to_sandbox']);
+gulp.task('default', function(){
+    gulp.watch('./Theme/**', ['deploy_to_sandbox']);
+});
 
 
 //gulp.task('auto-deploy', function(){
