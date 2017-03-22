@@ -10,4 +10,18 @@
 	 // $variables['#cache']['contexts'][] = 'url.path.is_front';
 	}
 
+
+/**
+ * src: http://drupal.stackexchange.com/questions/152936/are-there-drupal-8-custom-block-type-naming-conventions
+ * Implements hook_theme_suggestions_HOOK_alter() for form templates.
+ * @param array $suggestions
+ * @param array $variables
+ */
+function anelma_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  // Block suggestions for custom block bundles.
+  if (isset($variables['elements']['content']['#block_content'])) {
+    array_splice($suggestions, 1, 0, 'block__bundle__' . $variables['elements']['content']['#block_content']->bundle());
+  }
+}
+
 ?>

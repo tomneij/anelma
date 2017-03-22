@@ -1,0 +1,682 @@
+<!--Data Compare Save File: 3/7/2017 8:29:15 PM-->
+<DataCompareProject Version="5" SourceType="3" TargetType="3" Name="Local-Online-Comparison">
+  <Description>
+  </Description>
+  <ObjectPairsList>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="batch" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_batch" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="bid" CaptionTarget="bid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="token" CaptionTarget="token" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="timestamp" CaptionTarget="timestamp" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="batch" CaptionTarget="batch" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content__body" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content__body" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_value" CaptionTarget="body_value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_summary" CaptionTarget="body_summary" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_format" CaptionTarget="body_format" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="info" CaptionTarget="info" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_created" CaptionTarget="revision_created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_user" CaptionTarget="revision_user" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_translation_affected" CaptionTarget="revision_translation_affected" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content_field_revision" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content_field_revision" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="info" CaptionTarget="info" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_created" CaptionTarget="revision_created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_user" CaptionTarget="revision_user" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_translation_affected" CaptionTarget="revision_translation_affected" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content_revision" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content_revision" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_log" CaptionTarget="revision_log" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="block_content_revision__body" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_block_content_revision__body" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_value" CaptionTarget="body_value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_summary" CaptionTarget="body_summary" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_format" CaptionTarget="body_format" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_bootstrap" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_bootstrap" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_config" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_config" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_container" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_container" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_default" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_default" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_discovery" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_discovery" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_dynamic_page_cache" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_dynamic_page_cache" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_entity" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_entity" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_menu" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_menu" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_render" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_render" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cache_toolbar" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cache_toolbar" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="tags" CaptionTarget="tags" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="checksum" CaptionTarget="checksum" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="cachetags" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_cachetags" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="tag" CaptionTarget="tag" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="invalidations" CaptionTarget="invalidations" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="comment" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_comment" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_type" CaptionTarget="comment_type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="comment__comment_body" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_comment__comment_body" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_body_value" CaptionTarget="comment_body_value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_body_format" CaptionTarget="comment_body_format" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="comment_entity_statistics" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_comment_entity_statistics" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_type" CaptionTarget="entity_type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="field_name" CaptionTarget="field_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="last_comment_timestamp" CaptionTarget="last_comment_timestamp" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="last_comment_name" CaptionTarget="last_comment_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="last_comment_uid" CaptionTarget="last_comment_uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_count" CaptionTarget="comment_count" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="comment_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_comment_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="cid" CaptionTarget="cid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_type" CaptionTarget="comment_type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="pid" CaptionTarget="pid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="subject" CaptionTarget="subject" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="mail" CaptionTarget="mail" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="homepage" CaptionTarget="homepage" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="hostname" CaptionTarget="hostname" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="thread" CaptionTarget="thread" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="entity_type" CaptionTarget="entity_type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_name" CaptionTarget="field_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="config" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_config" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="collection" CaptionTarget="collection" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="file_managed" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_file_managed" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="fid" CaptionTarget="fid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="filename" CaptionTarget="filename" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uri" CaptionTarget="uri" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="filemime" CaptionTarget="filemime" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="filesize" CaptionTarget="filesize" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="file_usage" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_file_usage" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="fid" CaptionTarget="fid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="module" CaptionTarget="module" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="count" CaptionTarget="count" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="history" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_history" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="timestamp" CaptionTarget="timestamp" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="key_value" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_key_value" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="collection" CaptionTarget="collection" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="value" CaptionTarget="value" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="key_value_expire" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_key_value_expire" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="collection" CaptionTarget="collection" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="value" CaptionTarget="value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="menu_link_content" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_menu_link_content" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="menu_link_content_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_menu_link_content_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="title" CaptionTarget="title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="description" CaptionTarget="description" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="menu_name" CaptionTarget="menu_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__uri" CaptionTarget="link__uri" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__title" CaptionTarget="link__title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__options" CaptionTarget="link__options" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="external" CaptionTarget="external" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="rediscover" CaptionTarget="rediscover" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="weight" CaptionTarget="weight" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expanded" CaptionTarget="expanded" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="enabled" CaptionTarget="enabled" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="parent" CaptionTarget="parent" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="menu_tree" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_menu_tree" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="menu_name" CaptionTarget="menu_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="mlid" CaptionTarget="mlid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="parent" CaptionTarget="parent" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="route_name" CaptionTarget="route_name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="route_param_key" CaptionTarget="route_param_key" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="route_parameters" CaptionTarget="route_parameters" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="url" CaptionTarget="url" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="title" CaptionTarget="title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="description" CaptionTarget="description" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="class" CaptionTarget="class" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="options" CaptionTarget="options" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="provider" CaptionTarget="provider" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="enabled" CaptionTarget="enabled" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="discovered" CaptionTarget="discovered" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expanded" CaptionTarget="expanded" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="weight" CaptionTarget="weight" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="metadata" CaptionTarget="metadata" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="has_children" CaptionTarget="has_children" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="depth" CaptionTarget="depth" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p1" CaptionTarget="p1" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p2" CaptionTarget="p2" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p3" CaptionTarget="p3" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p4" CaptionTarget="p4" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p5" CaptionTarget="p5" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p6" CaptionTarget="p6" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p7" CaptionTarget="p7" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p8" CaptionTarget="p8" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="p9" CaptionTarget="p9" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="form_class" CaptionTarget="form_class" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node__body" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node__body" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_value" CaptionTarget="body_value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_summary" CaptionTarget="body_summary" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_format" CaptionTarget="body_format" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node__comment" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node__comment" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_status" CaptionTarget="comment_status" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node__field_image" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node__field_image" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_target_id" CaptionTarget="field_image_target_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_alt" CaptionTarget="field_image_alt" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_title" CaptionTarget="field_image_title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_width" CaptionTarget="field_image_width" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_height" CaptionTarget="field_image_height" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node__field_tags" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node__field_tags" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_tags_target_id" CaptionTarget="field_tags_target_id" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_access" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_access" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="fallback" CaptionTarget="fallback" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="gid" CaptionTarget="gid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="realm" CaptionTarget="realm" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="grant_view" CaptionTarget="grant_view" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="grant_update" CaptionTarget="grant_update" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="grant_delete" CaptionTarget="grant_delete" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="title" CaptionTarget="title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="promote" CaptionTarget="promote" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="sticky" CaptionTarget="sticky" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_translation_affected" CaptionTarget="revision_translation_affected" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_field_revision" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_field_revision" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="title" CaptionTarget="title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="promote" CaptionTarget="promote" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="sticky" CaptionTarget="sticky" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_translation_affected" CaptionTarget="revision_translation_affected" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_revision" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_revision" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_timestamp" CaptionTarget="revision_timestamp" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_uid" CaptionTarget="revision_uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_log" CaptionTarget="revision_log" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_revision__body" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_revision__body" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_value" CaptionTarget="body_value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_summary" CaptionTarget="body_summary" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="body_format" CaptionTarget="body_format" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_revision__comment" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_revision__comment" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="comment_status" CaptionTarget="comment_status" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_revision__field_image" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_revision__field_image" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_target_id" CaptionTarget="field_image_target_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_alt" CaptionTarget="field_image_alt" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_title" CaptionTarget="field_image_title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_width" CaptionTarget="field_image_width" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_image_height" CaptionTarget="field_image_height" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="node_revision__field_tags" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_node_revision__field_tags" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="field_tags_target_id" CaptionTarget="field_tags_target_id" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="queue" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_queue" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="item_id" CaptionTarget="item_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="router" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_router" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="path" CaptionTarget="path" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="pattern_outline" CaptionTarget="pattern_outline" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="fit" CaptionTarget="fit" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="route" CaptionTarget="route" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="number_parts" CaptionTarget="number_parts" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="search_dataset" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_search_dataset" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="sid" CaptionTarget="sid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="data" CaptionTarget="data" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="reindex" CaptionTarget="reindex" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="search_index" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_search_index" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="word" CaptionTarget="word" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="sid" CaptionTarget="sid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="score" CaptionTarget="score" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="search_total" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_search_total" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="word" CaptionTarget="word" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="count" CaptionTarget="count" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="semaphore" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_semaphore" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="value" CaptionTarget="value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="expire" CaptionTarget="expire" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="sequences" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_sequences" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="value" CaptionTarget="value" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="sessions" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_sessions" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="sid" CaptionTarget="sid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="hostname" CaptionTarget="hostname" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="timestamp" CaptionTarget="timestamp" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="session" CaptionTarget="session" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="shortcut" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_shortcut" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="shortcut_set" CaptionTarget="shortcut_set" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="shortcut_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_shortcut_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="id" CaptionTarget="id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="shortcut_set" CaptionTarget="shortcut_set" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="title" CaptionTarget="title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="weight" CaptionTarget="weight" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__uri" CaptionTarget="link__uri" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__title" CaptionTarget="link__title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link__options" CaptionTarget="link__options" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="shortcut_set_users" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_shortcut_set_users" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="set_name" CaptionTarget="set_name" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="taxonomy_index" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_taxonomy_index" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="nid" CaptionTarget="nid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="tid" CaptionTarget="tid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="sticky" CaptionTarget="sticky" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="taxonomy_term_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_taxonomy_term_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="tid" CaptionTarget="tid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="taxonomy_term_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_taxonomy_term_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="tid" CaptionTarget="tid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="vid" CaptionTarget="vid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="description__value" CaptionTarget="description__value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="description__format" CaptionTarget="description__format" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="weight" CaptionTarget="weight" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="taxonomy_term_hierarchy" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_taxonomy_term_hierarchy" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="tid" CaptionTarget="tid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="parent" CaptionTarget="parent" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="url_alias" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_url_alias" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="pid" CaptionTarget="pid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="source" CaptionTarget="source" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="alias" CaptionTarget="alias" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="user__roles" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_user__roles" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="roles_target_id" CaptionTarget="roles_target_id" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="user__user_picture" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_user__user_picture" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="bundle" CaptionTarget="bundle" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="deleted" CaptionTarget="deleted" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="entity_id" CaptionTarget="entity_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="revision_id" CaptionTarget="revision_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="delta" CaptionTarget="delta" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="user_picture_target_id" CaptionTarget="user_picture_target_id" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="user_picture_alt" CaptionTarget="user_picture_alt" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="user_picture_title" CaptionTarget="user_picture_title" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="user_picture_width" CaptionTarget="user_picture_width" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="user_picture_height" CaptionTarget="user_picture_height" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="users" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_users" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uuid" CaptionTarget="uuid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="langcode" CaptionTarget="langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="users_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_users_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="module" CaptionTarget="module" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="value" CaptionTarget="value" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="serialized" CaptionTarget="serialized" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="users_field_data" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_users_field_data" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="langcode" CaptionTarget="langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="preferred_langcode" CaptionTarget="preferred_langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="preferred_admin_langcode" CaptionTarget="preferred_admin_langcode" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="name" CaptionTarget="name" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="pass" CaptionTarget="pass" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="mail" CaptionTarget="mail" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="timezone" CaptionTarget="timezone" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="status" CaptionTarget="status" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="created" CaptionTarget="created" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="changed" CaptionTarget="changed" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="access" CaptionTarget="access" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="login" CaptionTarget="login" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="init" CaptionTarget="init" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="default_langcode" CaptionTarget="default_langcode" />
+    </ObjectPair>
+    <ObjectPair NeedCompare="True" CaptionSourceSchema="Anelma" CaptionSourceTable="watchdog" CaptionTargetSchema="anelmakozi_drup1" CaptionTargetTable="drup_watchdog" CustomFilterSource="" CustomFilterTarget="">
+      <ColumnPair NeedCompare="True" IsKeyColumn="True" CaptionSource="wid" CaptionTarget="wid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="uid" CaptionTarget="uid" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="type" CaptionTarget="type" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="message" CaptionTarget="message" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="variables" CaptionTarget="variables" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="severity" CaptionTarget="severity" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="link" CaptionTarget="link" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="location" CaptionTarget="location" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="referer" CaptionTarget="referer" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="hostname" CaptionTarget="hostname" />
+      <ColumnPair NeedCompare="True" IsKeyColumn="False" CaptionSource="timestamp" CaptionTarget="timestamp" />
+    </ObjectPair>
+  </ObjectPairsList>
+  <SourceConnectionMediator CurrentDB="Anelma">
+    <Connection type="MySQL" autoCommit="True">
+      <Name>Anelma-Local</Name>
+      <Path>MySQL</Path>
+      <AutoConnect>False</AutoConnect>
+      <DefaultOnStartup>False</DefaultOnStartup>
+      <Database>Anelma</Database>
+      <Host>127.0.0.1</Host>
+      <User>drupaluser</User>
+      <WinAuth>False</WinAuth>
+      <LastConnectionDate>2017-03-07T08:10:55.0854828</LastConnectionDate>
+      <Options>
+        <Protocol type="Socket" port="33067" />
+      </Options>
+    </Connection>
+    <ExtraParameter>
+      <Password>
+      </Password>
+    </ExtraParameter>
+  </SourceConnectionMediator>
+  <TargetConnectionMediator CurrentDB="anelmakozi_drup1">
+    <Connection type="MySQL" autoCommit="True">
+      <Name>Anelma-Online</Name>
+      <Path>MySQL</Path>
+      <AutoConnect>False</AutoConnect>
+      <DefaultOnStartup>False</DefaultOnStartup>
+      <Database>anelmakozi_drup1</Database>
+      <Host>anelmakozijnen.nl</Host>
+      <User>anelmakozi_tom</User>
+      <Password>5A9E21472D806D10A602387F9115E3E9</Password>
+      <WinAuth>False</WinAuth>
+      <LastConnectionDate>0001-01-01T00:00:00.0000000</LastConnectionDate>
+      <Options>
+        <Protocol type="Socket" />
+      </Options>
+    </Connection>
+    <ExtraParameter />
+  </TargetConnectionMediator>
+  <CompareTypes CompareSourceOnly="True" CompareDifferent="True" CompareEqual="True" CompareTargetOnly="True" />
+  <CompareOptions IgnoreBlobs="False" IgnoreCase="False" IgnoreGUID="False" IgnoreIdentityFields="False" IgnoreTimestamp="False" IgnoreWhitespace="False" EmptyAsNull="False" />
+  <SynchronizeOptions SyncForward="True" ScriptFilename="C:\Users\TomN\AppData\Local\Quest Software\Toad for MySQL Freeware 7.9DataSyncScript.sql" RowsLimitType="0" RowsLimit="1">
+    <SyncOption ServerType="1" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="2" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="3" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="4" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="5" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="6" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="7" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="8" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="9" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="10" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="11" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="12" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="13" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="14" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="15" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="16" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+    <SyncOption ServerType="17" DisableForeignKeys="False" DropCreatePrimaryKeysIndexesUniqueConstraints="False" DisableTriggers="False" TransactionType="2" StatementsInTransaction="1" IgnoreIdentity="False" UseImport="False" TempFilesFolder="" />
+  </SynchronizeOptions>
+</DataCompareProject>
