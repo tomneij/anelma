@@ -30,12 +30,15 @@
        {% if label %}
          <h3>{{ label }}</h3>
        {% endif %}
+
+      {% block content %}
       <address>
         <p>
-          <i class="icon-location"></i>&nbsp;{{field_adress}}}<br>
-          <i class="icon-phone"></i>&nbsp;{{field_phone}}} <br>
-          <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:{{field_email}}}">{{Field_email}}</a>
-        </p>
-      </address> 
+          <i class="icon-location"></i>&nbsp;{{content.field_adress|field_value}}<br>
+          <i class="icon-phone"></i>&nbsp;{{content.field_phone}} <br>
+          <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:{{content.field_email|field_value}}">{{content.field_email}}</a>
+        </p> 
+      </address>
+      {% endblock %} 
     </div>
   </div>
